@@ -1,0 +1,356 @@
+nav, header, footer {
+  display: block;
+}
+
+body {
+  background-color: #EBEAEA;
+  margin: 0;
+  line-height: 1;
+}
+
+.container {
+  width: 100%;
+  display: block;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.row {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* ################# Nav Bar ################# */
+nav {
+  margin: 0;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  background-color: #FF2E63;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.topnav {
+  height: 80px;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+
+ul.topnav li.topnav-right {
+  float: right;
+}
+
+ul.topnav li.topnav-center {
+  font-size: 25px;
+  text-align: center;
+}
+
+.FaReact {
+  font-size: 60px;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.GrSearch {
+  font-size: 25px;
+  background-color: gray;
+  padding: 10px 12px 10px 12px;
+  border-radius: 50%;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+.MdKeyboardBackspace {
+  font-size: 30px;
+  color: black;
+  display: block;
+}
+
+.SearchBar {
+  border: none;
+  height: 30px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.aiFillHome {
+  font-size: 40px;
+  color: black;
+}
+
+.headerProfilePic {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+/* ####################### Search List ############## */
+.searchList {
+  background-color: white;
+  text-align: center;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.searchBody {
+  max-height: 77vh;
+  overflow-y: auto;
+}
+
+.searchResultImage {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+.searchResultName {
+  float: left;
+  color: black;
+}
+
+.defaultSearch {
+  color: gray;
+}
+
+/* #############BodyFeed############# */
+.postWhole {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+.bodyFeed {
+  display: flex;
+  flex-direction: column;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+
+.postFeed {
+  min-height: 300px;
+  max-height: 350px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.postRectangle {
+  z-index: 1;
+  min-height: 50px;
+  /* width: 700px; */
+  background-color: white;
+  margin-top: -2px;
+  overflow-y: auto;
+}
+
+.postIcons {
+  justify-content: space-around;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+.postDp {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.postOwner {
+  display: flex;
+}
+
+.postOwnerName {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.postCaption {
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.postMyComment {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.postComment {
+  border: none;
+  margin-top: 10px;
+  margin-top: -2px;
+  border-radius: 50px;
+  background-color: #D6D6D6;
+  height: 0px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.postDisplayComments {
+  display: flex;
+  margin-left: 35px;
+}
+
+.postCommentName {
+  text-align: center;
+}
+
+.postCommentBody {
+  font-size: 20px;
+  margin-top: 17px;
+  text-align: left;
+}
+
+/* ######### Profile ########### */
+.profileImage {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profilePostDivider {
+  height: 30px;
+  background-color: #FF2E63;
+  text-align: center;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  align-self: baseline;
+}
+
+/* ##########sign in######### */
+.signIn {
+  background-color: #FF2E63;
+  height: 450px;
+  display: flex;
+  border-radius: 25px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.signInInput {
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px
+}
+
+::placeholder {
+  color: #C4C4C4;
+}
+
+.signInPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FF2E63;
+}
+
+.signInCredentials {
+  margin-bottom: 35px;
+}
+
+.signInSubmit {
+  /* margin-top: 30px; */
+  text-decoration: none;
+  color: #FF2E63;
+  font-weight: bold;
+  /* height: 40px; */
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25%;
+}
+
+.signInError {
+  color: black;
+  font-size: 13px;
+}
